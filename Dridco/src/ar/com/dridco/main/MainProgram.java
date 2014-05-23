@@ -16,7 +16,6 @@ public class MainProgram {
 		for(int i=0; i < rutasPosibles.size(); i++){
 			System.out.println("Ruta:" + rutasPosibles.get(i));	
 		}
-
 	}
 
 }

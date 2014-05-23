@@ -42,7 +42,5 @@ public class Recorrido {
 		return "Recorrido [ciudadOrigen=" + ciudadOrigen + ", ciudadDestiono="
 				+ ciudadDestiono + ", distancia=" + distancia + "]";
 	}
-	
-	
 
 }

@@ -70,8 +70,6 @@ public class Ciudad {
 	public void setRecorridosDestinoList(List<Recorrido> recorridosDestinoList) {
 		this.recorridosDestinoList = recorridosDestinoList;
 	}
-
-	
 	
 	@Override
 	public int hashCode() {
@@ -103,7 +101,5 @@ public class Ciudad {
 	public String toString() {
 		return "Ciudad [nombreCiudad=" + nombreCiudad + "]";
 	}
-	
-	
 	
 }

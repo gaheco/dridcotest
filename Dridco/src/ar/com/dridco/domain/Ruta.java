@@ -44,5 +44,4 @@ public class Ruta {
 		return "Ruta [trayectosDeRuta=" + trayectosDeRuta + "]";
 	}
 	
-	
 }

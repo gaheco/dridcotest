@@ -40,7 +40,6 @@ public class Ferrocarril {
 		}
 		
 		ciudadOrigen.addRecorrido(ciudadDestino, distancia);
-		
 	}
 
 	public String getDistanciaRutaDeterminadaString(List<String> nombreCiudadesVisitadasEnOrden) {
@@ -50,7 +49,6 @@ public class Ferrocarril {
 			return "SIN RUTA";
 		}
 	}
-
 	
 	private int getDistanciaRutaDeterminada(List<String> nombreCiudadesVisitadasEnOrden) throws NoExisteRutaException{
 		int distanciaTotal = 0;
@@ -127,7 +125,6 @@ public class Ferrocarril {
 		
 		return distanciaRutaMasCortaEntreCiudades;
 	}
-
 	
 	public int cantRutasConMaxDistancia(String nombreCiudadInicial,String nombreCiudadFinal, int cantMaximaDistancia){
 		Ciudad ciudadInicial = this.getCiudadPorNombre(nombreCiudadInicial);
@@ -137,7 +134,6 @@ public class Ferrocarril {
 		
 		return rutasEntreCiudades.size();
 	}
-
 	
 	private Ciudad getCiudadPorNombre(String nombreCiudad){
 		return this.ciudadesRecorridas.get(nombreCiudad);
